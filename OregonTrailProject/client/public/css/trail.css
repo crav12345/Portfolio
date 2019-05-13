@@ -1,0 +1,62 @@
+.image {
+	text-align: center;
+	width: 95%;
+	margin: auto;
+	background-color: blue;
+}
+
+.image img {
+	float: left;
+	width: 50%;
+	height: 440px;
+}
+
+.stats {
+	float: left;
+	margin-left: 50px;
+	width: 30%;
+	font-family: Optima, sans-serif;
+	color: lightgreen;
+	font-size: 12pt;
+}
+
+.instructions {
+	font-family: Optima, sans-serif;
+	color: yellow;
+}
+
+.messageForTrail	{
+	font-family: 'Rye', cursive;
+	color: white;
+    opacity: 1;
+    animation: fade 2s linear;
+	animation-iteration-count: infinite;
+}
+
+.slider {
+	clear: both;
+	background-color: black;
+	width: 722px;
+	margin-left: 38px;
+}
+
+.start {
+	font-family: 'Rye', cursive;
+	color: white;
+}
+
+.finish {
+	font-family: 'Rye', cursive;
+	float: right;
+	color: white;
+}
+
+.slider img {
+	height: 50px;
+	width: 60px;
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}

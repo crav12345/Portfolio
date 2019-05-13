@@ -1,0 +1,16 @@
+.menu {
+	font-family: 'Rye', cursive;
+	color: white;
+	font-size: 16pt;
+	width: 50%;
+	margin: auto;
+	text-indent: 30%;
+}
+
+.menuText:hover {
+	text-decoration: underline;
+}
+
+.goTrail:hover {
+	text-decoration: underline;
+}
